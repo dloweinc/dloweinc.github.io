@@ -2,9 +2,6 @@ local ADDON_NAME = ...
 
 local LootBrowser = {}
 LootBrowser.MIN_QUALITY = 3 -- 3=Rare (blue), 4=Epic, 5=Legendary
-LootBrowser.SLASH_COMMAND = "/rloot"
-
-local ToggleMainFrame
 
 LootBrowser.dungeons = {
     {
@@ -85,7 +82,7 @@ local function BuildMainFrame()
 
     local hint = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
     hint:SetPoint("TOPRIGHT", closeButton, "TOPLEFT", -6, -4)
-    hint:SetText("Type " .. LootBrowser.SLASH_COMMAND .. " to toggle")
+    hint:SetText("Type /loot to toggle")
 
     local leftPanel = CreateFrame("Frame", nil, frame, "BackdropTemplate")
     leftPanel:SetPoint("TOPLEFT", 12, -42)
@@ -140,50 +137,6 @@ local function BuildMainFrame()
     frame.scrollChild = scrollChild
 
     LootBrowser.frame = frame
-end
-
-local function BuildMinimapButton()
-    if LootBrowser.minimapButton then return end
-
-    local button = CreateFrame("Button", "LootBrowserMinimapButton", Minimap)
-    button:SetSize(32, 32)
-    button:SetFrameStrata("MEDIUM")
-    button:SetPoint("TOPLEFT", Minimap, "TOPLEFT", -4, 4)
-    button:RegisterForClicks("LeftButtonUp")
-
-    local background = button:CreateTexture(nil, "BACKGROUND")
-    background:SetTexture("Interface/Minimap/UI-Minimap-Background")
-    background:SetSize(52, 52)
-    background:SetPoint("TOPLEFT")
-    background:SetVertexColor(0, 0, 0, 0.75)
-
-    local border = button:CreateTexture(nil, "OVERLAY")
-    border:SetTexture("Interface/Minimap/MiniMap-TrackingBorder")
-    border:SetSize(56, 56)
-    border:SetPoint("TOPLEFT")
-
-    local icon = button:CreateTexture(nil, "ARTWORK")
-    icon:SetSize(20, 20)
-    icon:SetPoint("CENTER", 0, 1)
-    icon:SetTexture("Interface/Buttons/UI-GuildButton-PublicNote-Up")
-
-    button:SetScript("OnClick", function()
-        ToggleMainFrame()
-    end)
-
-    button:SetScript("OnEnter", function(self)
-        GameTooltip:SetOwner(self, "ANCHOR_LEFT")
-        GameTooltip:AddLine("Loot Browser", 1, 1, 1)
-        GameTooltip:AddLine("Click to open", 0.8, 0.95, 0.8)
-        GameTooltip:AddLine("Command: " .. LootBrowser.SLASH_COMMAND, 0.8, 0.95, 0.8)
-        GameTooltip:Show()
-    end)
-
-    button:SetScript("OnLeave", function()
-        GameTooltip:Hide()
-    end)
-
-    LootBrowser.minimapButton = button
 end
 
 local function ShowItemTooltip(self)
@@ -308,7 +261,7 @@ local function BuildDungeonButtons()
     end
 end
 
-ToggleMainFrame = function()
+local function ToggleMainFrame()
     if not LootBrowser.frame then
         BuildMainFrame()
         BuildDungeonButtons()
@@ -321,12 +274,11 @@ ToggleMainFrame = function()
     end
 end
 
-SLASH_LOOTBROWSER1 = LootBrowser.SLASH_COMMAND
+SLASH_LOOTBROWSER1 = "/loot"
 SlashCmdList.LOOTBROWSER = ToggleMainFrame
 
 local events = CreateFrame("Frame")
 events:RegisterEvent("PLAYER_LOGIN")
 events:SetScript("OnEvent", function()
-    BuildMinimapButton()
-    -- Main frame is still initialized lazily on first slash command or minimap click.
+    -- Initialize frame lazily on first /loot use.
 end)
