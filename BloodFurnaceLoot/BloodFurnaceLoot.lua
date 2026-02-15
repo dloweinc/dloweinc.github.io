@@ -169,28 +169,30 @@ local EQUIP_LOC_TO_SLOT = {
 }
 
 local STAT_KEYS = {
-    { keys = { "ITEM_MOD_STRENGTH_SHORT" }, label = "Strength" },
-    { keys = { "ITEM_MOD_AGILITY_SHORT" }, label = "Agility" },
-    { keys = { "ITEM_MOD_STAMINA_SHORT" }, label = "Stamina" },
-    { keys = { "ITEM_MOD_INTELLECT_SHORT" }, label = "Intellect" },
-    { keys = { "ITEM_MOD_SPIRIT_SHORT" }, label = "Spirit" },
-    { keys = { "RESISTANCE0_NAME", "ARMOR" }, label = "Armor" },
-    { keys = { "ITEM_MOD_HEALTH_SHORT" }, label = "Health" },
-    { keys = { "ITEM_MOD_MANA_SHORT" }, label = "Mana" },
-    { keys = { "ITEM_MOD_ATTACK_POWER_SHORT" }, label = "Attack Power" },
-    { keys = { "ITEM_MOD_RANGED_ATTACK_POWER_SHORT" }, label = "Ranged Attack Power" },
-    { keys = { "ITEM_MOD_SPELL_POWER_SHORT", "ITEM_MOD_SPELL_DAMAGE_DONE_SHORT" }, label = "Spell Power" },
-    { keys = { "ITEM_MOD_HEALING_DONE_SHORT", "ITEM_MOD_SPELL_HEALING_DONE_SHORT" }, label = "Healing" },
-    { keys = { "ITEM_MOD_DAMAGE_PER_SECOND_SHORT", "DPS" }, label = "Damage Per Second" },
-    { keys = { "ITEM_MOD_EXPERTISE_RATING_SHORT" }, label = "Expertise" },
-    { keys = { "ITEM_MOD_CRIT_RATING_SHORT", "ITEM_MOD_CRIT_MELEE_RATING_SHORT", "ITEM_MOD_CRIT_RANGED_RATING_SHORT", "ITEM_MOD_CRIT_SPELL_RATING_SHORT", "ITEM_MOD_SPELL_CRIT_RATING_SHORT" }, label = "Crit Rating" },
-    { keys = { "ITEM_MOD_HASTE_RATING_SHORT", "ITEM_MOD_HASTE_MELEE_RATING_SHORT", "ITEM_MOD_HASTE_RANGED_RATING_SHORT", "ITEM_MOD_HASTE_SPELL_RATING_SHORT" }, label = "Haste Rating" },
-    { keys = { "ITEM_MOD_HIT_RATING_SHORT", "ITEM_MOD_HIT_MELEE_RATING_SHORT", "ITEM_MOD_HIT_RANGED_RATING_SHORT", "ITEM_MOD_HIT_SPELL_RATING_SHORT", "ITEM_MOD_SPELL_HIT_RATING_SHORT" }, label = "Hit Rating" },
-    { keys = { "ITEM_MOD_BLOCK_RATING_SHORT" }, label = "Block Rating" },
-    { keys = { "ITEM_MOD_DODGE_RATING_SHORT" }, label = "Dodge Rating" },
-    { keys = { "ITEM_MOD_PARRY_RATING_SHORT" }, label = "Parry Rating" },
-    { keys = { "ITEM_MOD_DEFENSE_SKILL_RATING_SHORT" }, label = "Defense Rating" },
-    { keys = { "ITEM_MOD_RESILIENCE_RATING_SHORT" }, label = "Resilience" },
+    { key = "ITEM_MOD_STRENGTH_SHORT", label = "Strength" },
+    { key = "ITEM_MOD_AGILITY_SHORT", label = "Agility" },
+    { key = "ITEM_MOD_STAMINA_SHORT", label = "Stamina" },
+    { key = "ITEM_MOD_INTELLECT_SHORT", label = "Intellect" },
+    { key = "ITEM_MOD_SPIRIT_SHORT", label = "Spirit" },
+    { key = "RESISTANCE0_NAME", label = "Armor" },
+    { key = "ITEM_MOD_HEALTH_SHORT", label = "Health" },
+    { key = "ITEM_MOD_MANA_SHORT", label = "Mana" },
+    { key = "ITEM_MOD_ATTACK_POWER_SHORT", label = "Attack Power" },
+    { key = "ITEM_MOD_RANGED_ATTACK_POWER_SHORT", label = "Ranged Attack Power" },
+    { key = "ITEM_MOD_SPELL_POWER_SHORT", label = "Spell Power" },
+    { key = "ITEM_MOD_HEALING_DONE_SHORT", label = "Healing" },
+    { key = "ITEM_MOD_DAMAGE_PER_SECOND_SHORT", label = "Damage Per Second" },
+    { key = "ITEM_MOD_EXPERTISE_RATING_SHORT", label = "Expertise" },
+    { key = "ITEM_MOD_CRIT_RATING_SHORT", label = "Crit Rating" },
+    { key = "ITEM_MOD_SPELL_CRIT_RATING_SHORT", label = "Spell Crit Rating" },
+    { key = "ITEM_MOD_HASTE_RATING_SHORT", label = "Haste Rating" },
+    { key = "ITEM_MOD_HIT_RATING_SHORT", label = "Hit Rating" },
+    { key = "ITEM_MOD_SPELL_HIT_RATING_SHORT", label = "Spell Hit Rating" },
+    { key = "ITEM_MOD_BLOCK_RATING_SHORT", label = "Block Rating" },
+    { key = "ITEM_MOD_DODGE_RATING_SHORT", label = "Dodge Rating" },
+    { key = "ITEM_MOD_PARRY_RATING_SHORT", label = "Parry Rating" },
+    { key = "ITEM_MOD_DEFENSE_SKILL_RATING_SHORT", label = "Defense Rating" },
+    { key = "ITEM_MOD_RESILIENCE_RATING_SHORT", label = "Resilience" },
 }
 
 local function FormatStatDiff(diff)
@@ -219,14 +221,6 @@ local function ChooseComparisonSlot(itemLink)
     return slotInfo
 end
 
-local function GetStatValue(statsTable, stat)
-    local total = 0
-    for _, key in ipairs(stat.keys) do
-        total = total + (statsTable[key] or 0)
-    end
-    return total
-end
-
 local function AddComparisonLines(itemLink)
     local slotID = ChooseComparisonSlot(itemLink)
     if not slotID then
@@ -245,7 +239,7 @@ local function AddComparisonLines(itemLink)
     local shownAny = false
 
     for _, stat in ipairs(STAT_KEYS) do
-        local diff = GetStatValue(newStats, stat) - GetStatValue(equippedStats, stat)
+        local diff = (newStats[stat.key] or 0) - (equippedStats[stat.key] or 0)
         if diff ~= 0 then
             shownAny = true
             local value = FormatStatDiff(diff)
