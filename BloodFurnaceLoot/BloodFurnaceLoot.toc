@@ -4,5 +4,6 @@
 ## Author: dloweinc + Codex
 ## Version: 0.1.0
 ## SavedVariables: LootBrowserDB
+## OptionalDeps: Blizzard_EncounterJournal
 
 BloodFurnaceLoot.lua
