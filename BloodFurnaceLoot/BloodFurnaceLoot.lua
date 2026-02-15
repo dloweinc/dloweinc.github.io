@@ -174,13 +174,34 @@ local STAT_KEYS = {
     { key = "ITEM_MOD_STAMINA_SHORT", label = "Stamina" },
     { key = "ITEM_MOD_INTELLECT_SHORT", label = "Intellect" },
     { key = "ITEM_MOD_SPIRIT_SHORT", label = "Spirit" },
+    { key = "RESISTANCE0_NAME", label = "Armor" },
+    { key = "ITEM_MOD_HEALTH_SHORT", label = "Health" },
+    { key = "ITEM_MOD_MANA_SHORT", label = "Mana" },
     { key = "ITEM_MOD_ATTACK_POWER_SHORT", label = "Attack Power" },
+    { key = "ITEM_MOD_RANGED_ATTACK_POWER_SHORT", label = "Ranged Attack Power" },
     { key = "ITEM_MOD_SPELL_POWER_SHORT", label = "Spell Power" },
+    { key = "ITEM_MOD_HEALING_DONE_SHORT", label = "Healing" },
+    { key = "ITEM_MOD_DAMAGE_PER_SECOND_SHORT", label = "Damage Per Second" },
+    { key = "ITEM_MOD_EXPERTISE_RATING_SHORT", label = "Expertise" },
     { key = "ITEM_MOD_CRIT_RATING_SHORT", label = "Crit Rating" },
+    { key = "ITEM_MOD_SPELL_CRIT_RATING_SHORT", label = "Spell Crit Rating" },
+    { key = "ITEM_MOD_HASTE_RATING_SHORT", label = "Haste Rating" },
     { key = "ITEM_MOD_HIT_RATING_SHORT", label = "Hit Rating" },
+    { key = "ITEM_MOD_SPELL_HIT_RATING_SHORT", label = "Spell Hit Rating" },
+    { key = "ITEM_MOD_BLOCK_RATING_SHORT", label = "Block Rating" },
+    { key = "ITEM_MOD_DODGE_RATING_SHORT", label = "Dodge Rating" },
+    { key = "ITEM_MOD_PARRY_RATING_SHORT", label = "Parry Rating" },
     { key = "ITEM_MOD_DEFENSE_SKILL_RATING_SHORT", label = "Defense Rating" },
     { key = "ITEM_MOD_RESILIENCE_RATING_SHORT", label = "Resilience" },
 }
+
+local function FormatStatDiff(diff)
+    if math.floor(diff) ~= diff then
+        return string.format("%.1f", diff)
+    end
+
+    return tostring(diff)
+end
 
 local function ChooseComparisonSlot(itemLink)
     local equipLoc = select(9, GetItemInfo(itemLink or ""))
@@ -221,10 +242,11 @@ local function AddComparisonLines(itemLink)
         local diff = (newStats[stat.key] or 0) - (equippedStats[stat.key] or 0)
         if diff ~= 0 then
             shownAny = true
+            local value = FormatStatDiff(diff)
             if diff > 0 then
-                GameTooltip:AddLine("+" .. diff .. " " .. stat.label, 0.3, 1.0, 0.3)
+                GameTooltip:AddLine("+" .. value .. " " .. stat.label, 0.3, 1.0, 0.3)
             else
-                GameTooltip:AddLine(diff .. " " .. stat.label, 1.0, 0.35, 0.35)
+                GameTooltip:AddLine(value .. " " .. stat.label, 1.0, 0.35, 0.35)
             end
         end
     end
