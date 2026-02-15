@@ -6,6 +6,36 @@ LootBrowser.SLASH_COMMAND = "/rloot"
 
 local ToggleMainFrame
 
+local TBC_DUNGEON_NAMES = {
+    ["Hellfire Ramparts"] = true,
+    ["The Blood Furnace"] = true,
+    ["The Shattered Halls"] = true,
+    ["Mana-Tombs"] = true,
+    ["Auchenai Crypts"] = true,
+    ["Sethekk Halls"] = true,
+    ["Shadow Labyrinth"] = true,
+    ["The Slave Pens"] = true,
+    ["The Underbog"] = true,
+    ["The Steamvault"] = true,
+    ["Old Hillsbrad Foothills"] = true,
+    ["The Black Morass"] = true,
+    ["Magisters' Terrace"] = true,
+    ["The Mechanar"] = true,
+    ["The Botanica"] = true,
+    ["The Arcatraz"] = true,
+}
+
+local TBC_RAID_NAMES = {
+    ["Karazhan"] = true,
+    ["Gruul's Lair"] = true,
+    ["Magtheridon's Lair"] = true,
+    ["Serpentshrine Cavern"] = true,
+    ["Tempest Keep"] = true,
+    ["The Battle for Mount Hyjal"] = true,
+    ["Black Temple"] = true,
+    ["Sunwell Plateau"] = true,
+}
+
 local DIFFICULTY_NORMAL_DUNGEON = 1
 local DIFFICULTY_HEROIC_DUNGEON = 2
 local DIFFICULTY_NORMAL_RAID = 14
@@ -44,33 +74,15 @@ LootBrowser.dungeons = {
     },
 }
 
-local function EnsureEncounterJournalLoaded()
-    if EJ_GetInstanceByIndex and EJ_SelectInstance and EJ_GetEncounterInfoByIndex and EJ_GetLootInfoByIndex then
-        return true
-    end
-
-    if type(IsAddOnLoaded) == "function" and type(LoadAddOn) == "function" and not IsAddOnLoaded("Blizzard_EncounterJournal") then
-        pcall(LoadAddOn, "Blizzard_EncounterJournal")
-    end
-
-    return EJ_GetInstanceByIndex and EJ_SelectInstance and EJ_GetEncounterInfoByIndex and EJ_GetLootInfoByIndex
-end
-
 local function CollectJournalInstances(isRaid)
     local instances = {}
     for index = 1, 200 do
         local name, _, _, _, _, _, _, instanceID = EJ_GetInstanceByIndex(index, isRaid)
-        if name and instanceID then
-            table.insert(instances, { name = name, instanceID = instanceID })
-        elseif #instances > 0 then
+        if not name or not instanceID then
             break
         end
+        instances[name] = instanceID
     end
-
-    table.sort(instances, function(a, b)
-        return a.name < b.name
-    end)
-
     return instances
 end
 
@@ -138,26 +150,17 @@ local function BuildDungeonFromJournal(name, instanceID, difficultyID, difficult
         return nil
     end
 
-    local _, _, _, _, _, _, _, _, _, mapID = EJ_GetInstanceInfo(instanceID)
-    local zoneName = "Outland"
-    if C_Map and C_Map.GetMapInfo and mapID then
-        local mapInfo = C_Map.GetMapInfo(mapID)
-        if mapInfo and mapInfo.name then
-            zoneName = mapInfo.name
-        end
-    end
-
     return {
         id = string.lower(name:gsub("[^%w]+", "_")) .. "_" .. string.lower(difficultyLabel),
         name = name,
-        zone = zoneName,
+        zone = "Outland",
         bosses = bosses,
         difficulty = difficultyLabel,
     }
 end
 
 local function BuildTBCAnniversaryLootData()
-    if not EnsureEncounterJournalLoaded() then
+    if not (EJ_GetInstanceByIndex and EJ_SelectInstance and EJ_GetEncounterInfoByIndex and EJ_GetLootInfoByIndex) then
         return nil
     end
 
@@ -165,30 +168,34 @@ local function BuildTBCAnniversaryLootData()
     local dungeonInstances = CollectJournalInstances(false)
     local raidInstances = CollectJournalInstances(true)
 
-    for _, instance in ipairs(dungeonInstances) do
-        local normal = BuildDungeonFromJournal(instance.name, instance.instanceID, DIFFICULTY_NORMAL_DUNGEON, "Normal")
-        if normal then
-            table.insert(dungeons, normal)
-        end
+    for name in pairs(TBC_DUNGEON_NAMES) do
+        local instanceID = dungeonInstances[name]
+        if instanceID then
+            local normal = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_NORMAL_DUNGEON, "Normal")
+            if normal then
+                table.insert(dungeons, normal)
+            end
 
-        local heroic = BuildDungeonFromJournal(instance.name, instance.instanceID, DIFFICULTY_HEROIC_DUNGEON, "Heroic")
-        if heroic then
-            heroic.name = heroic.name .. " (Heroic)"
-            table.insert(dungeons, heroic)
+            local heroic = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_HEROIC_DUNGEON, "Heroic")
+            if heroic then
+                heroic.name = heroic.name .. " (Heroic)"
+                table.insert(dungeons, heroic)
+            end
         end
     end
 
-    for _, instance in ipairs(raidInstances) do
-        local raid = BuildDungeonFromJournal(instance.name, instance.instanceID, DIFFICULTY_NORMAL_RAID, "Raid")
-        if raid then
-            table.insert(dungeons, raid)
+    for name in pairs(TBC_RAID_NAMES) do
+        local instanceID = raidInstances[name]
+        if instanceID then
+            local raid = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_NORMAL_RAID, "Raid")
+            if raid then
+                table.insert(dungeons, raid)
+            end
         end
     end
 
     table.sort(dungeons, function(a, b)
-        local aKey = (a.zone or "") .. "::" .. (a.name or "") .. "::" .. (a.difficulty or "")
-        local bKey = (b.zone or "") .. "::" .. (b.name or "") .. "::" .. (b.difficulty or "")
-        return aKey < bKey
+        return a.name < b.name
     end)
 
     if #dungeons == 0 then
@@ -621,8 +628,6 @@ events:SetScript("OnEvent", function()
     local journalLoot = BuildTBCAnniversaryLootData()
     if journalLoot then
         LootBrowser.dungeons = journalLoot
-    elseif DEFAULT_CHAT_FRAME and DEFAULT_CHAT_FRAME.AddMessage then
-        DEFAULT_CHAT_FRAME:AddMessage("|cffff9933Loot Browser: Encounter Journal unavailable; using fallback loot data.|r")
     end
 
     BuildMinimapButton()
