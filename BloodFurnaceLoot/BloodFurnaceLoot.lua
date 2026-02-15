@@ -142,98 +142,6 @@ local function BuildMainFrame()
     LootBrowser.frame = frame
 end
 
-local EQUIP_LOC_TO_SLOT = {
-    INVTYPE_HEAD = 1,
-    INVTYPE_NECK = 2,
-    INVTYPE_SHOULDER = 3,
-    INVTYPE_BODY = 4,
-    INVTYPE_CHEST = 5,
-    INVTYPE_ROBE = 5,
-    INVTYPE_WAIST = 6,
-    INVTYPE_LEGS = 7,
-    INVTYPE_FEET = 8,
-    INVTYPE_WRIST = 9,
-    INVTYPE_HAND = 10,
-    INVTYPE_FINGER = { 11, 12 },
-    INVTYPE_TRINKET = { 13, 14 },
-    INVTYPE_CLOAK = 15,
-    INVTYPE_WEAPON = 16,
-    INVTYPE_2HWEAPON = 16,
-    INVTYPE_WEAPONMAINHAND = 16,
-    INVTYPE_WEAPONOFFHAND = 17,
-    INVTYPE_HOLDABLE = 17,
-    INVTYPE_SHIELD = 17,
-    INVTYPE_RANGED = 18,
-    INVTYPE_RANGEDRIGHT = 18,
-    INVTYPE_RELIC = 18,
-}
-
-local STAT_KEYS = {
-    { key = "ITEM_MOD_STRENGTH_SHORT", label = "Strength" },
-    { key = "ITEM_MOD_AGILITY_SHORT", label = "Agility" },
-    { key = "ITEM_MOD_STAMINA_SHORT", label = "Stamina" },
-    { key = "ITEM_MOD_INTELLECT_SHORT", label = "Intellect" },
-    { key = "ITEM_MOD_SPIRIT_SHORT", label = "Spirit" },
-    { key = "ITEM_MOD_ATTACK_POWER_SHORT", label = "Attack Power" },
-    { key = "ITEM_MOD_SPELL_POWER_SHORT", label = "Spell Power" },
-    { key = "ITEM_MOD_CRIT_RATING_SHORT", label = "Crit Rating" },
-    { key = "ITEM_MOD_HIT_RATING_SHORT", label = "Hit Rating" },
-    { key = "ITEM_MOD_DEFENSE_SKILL_RATING_SHORT", label = "Defense Rating" },
-    { key = "ITEM_MOD_RESILIENCE_RATING_SHORT", label = "Resilience" },
-}
-
-local function ChooseComparisonSlot(itemLink)
-    local equipLoc = select(9, GetItemInfo(itemLink or ""))
-    local slotInfo = EQUIP_LOC_TO_SLOT[equipLoc]
-    if not slotInfo then return nil end
-
-    if type(slotInfo) == "table" then
-        local leftSlot, rightSlot = slotInfo[1], slotInfo[2]
-        local leftLink = GetInventoryItemLink("player", leftSlot)
-        local rightLink = GetInventoryItemLink("player", rightSlot)
-
-        if leftLink and not rightLink then return leftSlot end
-        if rightLink and not leftLink then return rightSlot end
-        return leftSlot
-    end
-
-    return slotInfo
-end
-
-local function AddComparisonLines(itemLink)
-    local slotID = ChooseComparisonSlot(itemLink)
-    if not slotID then
-        GameTooltip:AddLine("No equipment slot comparison for this item.", 0.7, 0.7, 0.7)
-        return
-    end
-
-    local equippedLink = GetInventoryItemLink("player", slotID)
-    if not equippedLink then
-        GameTooltip:AddLine("Compared slot is currently empty.", 0.6, 1.0, 0.6)
-        return
-    end
-
-    local newStats = GetItemStats(itemLink) or {}
-    local equippedStats = GetItemStats(equippedLink) or {}
-    local shownAny = false
-
-    for _, stat in ipairs(STAT_KEYS) do
-        local diff = (newStats[stat.key] or 0) - (equippedStats[stat.key] or 0)
-        if diff ~= 0 then
-            shownAny = true
-            if diff > 0 then
-                GameTooltip:AddLine("+" .. diff .. " " .. stat.label, 0.3, 1.0, 0.3)
-            else
-                GameTooltip:AddLine(diff .. " " .. stat.label, 1.0, 0.35, 0.35)
-            end
-        end
-    end
-
-    if not shownAny then
-        GameTooltip:AddLine("No primary stat change vs equipped item.", 0.75, 0.75, 0.75)
-    end
-end
-
 local function BuildMinimapButton()
     if LootBrowser.minimapButton then return end
 
@@ -280,24 +188,16 @@ end
 
 local function ShowItemTooltip(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    local itemLink
 
     if self.itemData and self.itemData.itemID then
-        itemLink = "item:" .. self.itemData.itemID
-        GameTooltip:SetHyperlink(itemLink)
+        GameTooltip:SetHyperlink("item:" .. self.itemData.itemID)
     else
         GameTooltip:AddLine(self.itemData and self.itemData.name or "Unknown Item", 1, 1, 1)
     end
 
-    if itemLink then
-        GameTooltip:AddLine(" ")
-        GameTooltip:AddLine("Compared to your equipped item", 0.0, 0.85, 1.0)
-        AddComparisonLines(itemLink)
-    end
-
     if self.itemData and self.itemData.stats and #self.itemData.stats > 0 then
         GameTooltip:AddLine(" ")
-        GameTooltip:AddLine("Loot Table Notes", 0.5, 0.8, 1.0)
+        GameTooltip:AddLine("Preview Stats", 0.0, 0.85, 1.0)
         for _, statLine in ipairs(self.itemData.stats) do
             GameTooltip:AddLine(statLine, 0.8, 0.95, 0.8)
         end
