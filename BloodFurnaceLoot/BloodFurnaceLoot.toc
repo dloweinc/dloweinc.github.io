@@ -1,0 +1,8 @@
+## Interface: 20504
+## Title: Loot Browser - TBC Classic
+## Notes: Shows dungeon and raid boss loot with item icons and tooltip stats.
+## Author: dloweinc + Codex
+## Version: 0.1.0
+## SavedVariables: LootBrowserDB
+
+BloodFurnaceLoot.lua
