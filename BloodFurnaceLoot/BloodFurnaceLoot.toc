@@ -1,4 +1,4 @@
-## Interface: 20504
+## Interface: 20505
 ## Title: Loot Browser - TBC Classic
 ## Notes: Shows dungeon and raid boss loot with item icons and tooltip stats.
 ## Author: dloweinc + Codex
