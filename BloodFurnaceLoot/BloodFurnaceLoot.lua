@@ -6,6 +6,40 @@ LootBrowser.SLASH_COMMAND = "/rloot"
 
 local ToggleMainFrame
 
+local TBC_DUNGEON_NAMES = {
+    ["Hellfire Ramparts"] = true,
+    ["The Blood Furnace"] = true,
+    ["The Shattered Halls"] = true,
+    ["Mana-Tombs"] = true,
+    ["Auchenai Crypts"] = true,
+    ["Sethekk Halls"] = true,
+    ["Shadow Labyrinth"] = true,
+    ["The Slave Pens"] = true,
+    ["The Underbog"] = true,
+    ["The Steamvault"] = true,
+    ["Old Hillsbrad Foothills"] = true,
+    ["The Black Morass"] = true,
+    ["Magisters' Terrace"] = true,
+    ["The Mechanar"] = true,
+    ["The Botanica"] = true,
+    ["The Arcatraz"] = true,
+}
+
+local TBC_RAID_NAMES = {
+    ["Karazhan"] = true,
+    ["Gruul's Lair"] = true,
+    ["Magtheridon's Lair"] = true,
+    ["Serpentshrine Cavern"] = true,
+    ["Tempest Keep"] = true,
+    ["The Battle for Mount Hyjal"] = true,
+    ["Black Temple"] = true,
+    ["Sunwell Plateau"] = true,
+}
+
+local DIFFICULTY_NORMAL_DUNGEON = 1
+local DIFFICULTY_HEROIC_DUNGEON = 2
+local DIFFICULTY_NORMAL_RAID = 14
+
 LootBrowser.dungeons = {
     {
         id = "blood_furnace",
@@ -39,6 +73,137 @@ LootBrowser.dungeons = {
         },
     },
 }
+
+local function CollectJournalInstances(isRaid)
+    local instances = {}
+    for index = 1, 200 do
+        local name, _, _, _, _, _, _, instanceID = EJ_GetInstanceByIndex(index, isRaid)
+        if not name or not instanceID then
+            break
+        end
+        instances[name] = instanceID
+    end
+    return instances
+end
+
+local function GetLootInfoByIndex(index, encounterID)
+    local itemInfo = EJ_GetLootInfoByIndex(index, encounterID)
+    if type(itemInfo) == "table" then
+        return itemInfo
+    end
+
+    local itemID, _, name, _, _, _, _, _, _, icon, _, _, _, quality = EJ_GetLootInfoByIndex(index, encounterID)
+    if itemID then
+        return {
+            itemID = itemID,
+            name = name,
+            icon = icon,
+            quality = quality,
+        }
+    end
+
+    return nil
+end
+
+local function BuildEncounterLoot(encounterID)
+    local loot = {}
+    for lootIndex = 1, 500 do
+        local item = GetLootInfoByIndex(lootIndex, encounterID)
+        if not item then
+            break
+        end
+
+        local quality = item.quality or select(3, GetItemInfo(item.itemID or 0)) or 1
+        if (quality or 1) >= LootBrowser.MIN_QUALITY and item.itemID then
+            local itemName, _, _, _, _, _, _, _, _, icon = GetItemInfo(item.itemID)
+            table.insert(loot, {
+                itemID = item.itemID,
+                quality = quality,
+                name = item.name or itemName or ("Item #" .. item.itemID),
+                icon = item.icon or icon,
+                stats = {},
+            })
+        end
+    end
+
+    return loot
+end
+
+local function BuildDungeonFromJournal(name, instanceID, difficultyID, difficultyLabel)
+    EJ_SelectInstance(instanceID)
+    EJ_SetDifficulty(difficultyID)
+
+    local bosses = {}
+    for encounterIndex = 1, 100 do
+        local encounterName, _, encounterID = EJ_GetEncounterInfoByIndex(encounterIndex, instanceID)
+        if not encounterName or not encounterID then
+            break
+        end
+
+        table.insert(bosses, {
+            name = encounterName,
+            loot = BuildEncounterLoot(encounterID),
+        })
+    end
+
+    if #bosses == 0 then
+        return nil
+    end
+
+    return {
+        id = string.lower(name:gsub("[^%w]+", "_")) .. "_" .. string.lower(difficultyLabel),
+        name = name,
+        zone = "Outland",
+        bosses = bosses,
+        difficulty = difficultyLabel,
+    }
+end
+
+local function BuildTBCAnniversaryLootData()
+    if not (EJ_GetInstanceByIndex and EJ_SelectInstance and EJ_GetEncounterInfoByIndex and EJ_GetLootInfoByIndex) then
+        return nil
+    end
+
+    local dungeons = {}
+    local dungeonInstances = CollectJournalInstances(false)
+    local raidInstances = CollectJournalInstances(true)
+
+    for name in pairs(TBC_DUNGEON_NAMES) do
+        local instanceID = dungeonInstances[name]
+        if instanceID then
+            local normal = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_NORMAL_DUNGEON, "Normal")
+            if normal then
+                table.insert(dungeons, normal)
+            end
+
+            local heroic = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_HEROIC_DUNGEON, "Heroic")
+            if heroic then
+                heroic.name = heroic.name .. " (Heroic)"
+                table.insert(dungeons, heroic)
+            end
+        end
+    end
+
+    for name in pairs(TBC_RAID_NAMES) do
+        local instanceID = raidInstances[name]
+        if instanceID then
+            local raid = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_NORMAL_RAID, "Raid")
+            if raid then
+                table.insert(dungeons, raid)
+            end
+        end
+    end
+
+    table.sort(dungeons, function(a, b)
+        return a.name < b.name
+    end)
+
+    if #dungeons == 0 then
+        return nil
+    end
+
+    return dungeons
+end
 
 local function GetQualityColor(quality)
     local color = ITEM_QUALITY_COLORS and ITEM_QUALITY_COLORS[quality or 1]
@@ -105,6 +270,14 @@ local function BuildMainFrame()
     dungeonHeader:SetPoint("TOPLEFT", 10, -10)
     dungeonHeader:SetText("Dungeons / Raids")
 
+    local dungeonScroll = CreateFrame("ScrollFrame", nil, leftPanel, "UIPanelScrollFrameTemplate")
+    dungeonScroll:SetPoint("TOPLEFT", 8, -30)
+    dungeonScroll:SetPoint("BOTTOMRIGHT", -28, 8)
+
+    local dungeonScrollChild = CreateFrame("Frame", nil, dungeonScroll)
+    dungeonScrollChild:SetSize(180, 1)
+    dungeonScroll:SetScrollChild(dungeonScrollChild)
+
     local rightPanel = CreateFrame("Frame", nil, frame, "BackdropTemplate")
     rightPanel:SetPoint("TOPLEFT", leftPanel, "TOPRIGHT", 10, 0)
     rightPanel:SetPoint("BOTTOMRIGHT", -12, 12)
@@ -135,6 +308,7 @@ local function BuildMainFrame()
     scrollFrame:SetScrollChild(scrollChild)
 
     frame.leftPanel = leftPanel
+    frame.dungeonScrollChild = dungeonScrollChild
     frame.rightPanel = rightPanel
     frame.contentTitle = contentTitle
     frame.scrollChild = scrollChild
@@ -345,7 +519,8 @@ local function RenderDungeon(dungeon)
     end
     parent.rows = {}
 
-    frame.contentTitle:SetText(dungeon.name .. "  -  " .. dungeon.zone)
+    local difficultySuffix = dungeon.difficulty and (" [" .. dungeon.difficulty .. "]") or ""
+    frame.contentTitle:SetText(dungeon.name .. difficultySuffix .. "  -  " .. dungeon.zone)
 
     local y = -4
     for _, boss in ipairs(dungeon.bosses) do
@@ -411,7 +586,7 @@ local function BuildDungeonButtons()
     local y = -34
 
     for _, dungeon in ipairs(LootBrowser.dungeons) do
-        local button = CreateFrame("Button", nil, frame.leftPanel, "UIPanelButtonTemplate")
+        local button = CreateFrame("Button", nil, frame.dungeonScrollChild, "UIPanelButtonTemplate")
         button:SetSize(196, 30)
         button:SetPoint("TOPLEFT", 10, y)
         button:SetText(dungeon.name)
@@ -424,6 +599,7 @@ local function BuildDungeonButtons()
     end
 
     frame.dungeonButtons = buttons
+    frame.dungeonScrollChild:SetHeight(math.max(1, #buttons * 36))
 
     if LootBrowser.dungeons[1] then
         RenderDungeon(LootBrowser.dungeons[1])
@@ -449,6 +625,11 @@ SlashCmdList.LOOTBROWSER = ToggleMainFrame
 local events = CreateFrame("Frame")
 events:RegisterEvent("PLAYER_LOGIN")
 events:SetScript("OnEvent", function()
+    local journalLoot = BuildTBCAnniversaryLootData()
+    if journalLoot then
+        LootBrowser.dungeons = journalLoot
+    end
+
     BuildMinimapButton()
     -- Main frame is still initialized lazily on first slash command or minimap click.
 end)
