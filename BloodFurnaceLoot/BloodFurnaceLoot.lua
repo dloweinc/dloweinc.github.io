@@ -7,10 +7,12 @@ LootBrowser.SLASH_COMMAND = "/rloot"
 local ToggleMainFrame
 
 LootBrowser.dungeons = {
+
     {
         id = "blood_furnace",
         name = "The Blood Furnace",
         zone = "Hellfire Citadel",
+        difficulty = "Normal",
         bosses = {
             {
                 name = "The Maker",
@@ -38,7 +40,805 @@ LootBrowser.dungeons = {
             },
         },
     },
+    {
+        id = "blood_furnace_heroic",
+        name = "The Blood Furnace (Heroic)",
+        zone = "Hellfire Citadel",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "The Maker", loot = {} },
+            { name = "Broggok", loot = {} },
+            { name = "Keli'dan the Breaker", loot = {} },
+        },
+    },
+    {
+        id = "hellfire_ramparts",
+        name = "Hellfire Ramparts",
+        zone = "Hellfire Citadel",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Watchkeeper Gargolmar", loot = {} },
+            { name = "Omor the Unscarred", loot = {} },
+            { name = "Vazruden the Herald", loot = {} },
+        },
+    },
+    {
+        id = "hellfire_ramparts_heroic",
+        name = "Hellfire Ramparts (Heroic)",
+        zone = "Hellfire Citadel",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Watchkeeper Gargolmar", loot = {} },
+            { name = "Omor the Unscarred", loot = {} },
+            { name = "Vazruden the Herald", loot = {} },
+        },
+    },
+    {
+        id = "shattered_halls",
+        name = "The Shattered Halls",
+        zone = "Hellfire Citadel",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Grand Warlock Nethekurse", loot = {} },
+            { name = "Blood Guard Porung", loot = {} },
+            { name = "Warbringer O'mrogg", loot = {} },
+            { name = "Warchief Kargath Bladefist", loot = {} },
+        },
+    },
+    {
+        id = "shattered_halls_heroic",
+        name = "The Shattered Halls (Heroic)",
+        zone = "Hellfire Citadel",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Grand Warlock Nethekurse", loot = {} },
+            { name = "Blood Guard Porung", loot = {} },
+            { name = "Warbringer O'mrogg", loot = {} },
+            { name = "Warchief Kargath Bladefist", loot = {} },
+        },
+    },
+    {
+        id = "slave_pens",
+        name = "The Slave Pens",
+        zone = "Coilfang Reservoir",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Mennu the Betrayer", loot = {} },
+            { name = "Rokmar the Crackler", loot = {} },
+            { name = "Quagmirran", loot = {} },
+        },
+    },
+    {
+        id = "slave_pens_heroic",
+        name = "The Slave Pens (Heroic)",
+        zone = "Coilfang Reservoir",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Mennu the Betrayer", loot = {} },
+            { name = "Rokmar the Crackler", loot = {} },
+            { name = "Quagmirran", loot = {} },
+        },
+    },
+    {
+        id = "underbog",
+        name = "The Underbog",
+        zone = "Coilfang Reservoir",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Hungarfen", loot = {} },
+            { name = "Ghaz'an", loot = {} },
+            { name = "Swamplord Musel'ek", loot = {} },
+            { name = "The Black Stalker", loot = {} },
+        },
+    },
+    {
+        id = "underbog_heroic",
+        name = "The Underbog (Heroic)",
+        zone = "Coilfang Reservoir",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Hungarfen", loot = {} },
+            { name = "Ghaz'an", loot = {} },
+            { name = "Swamplord Musel'ek", loot = {} },
+            { name = "The Black Stalker", loot = {} },
+        },
+    },
+    {
+        id = "steamvault",
+        name = "The Steamvault",
+        zone = "Coilfang Reservoir",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Hydromancer Thespia", loot = {} },
+            { name = "Mekgineer Steamrigger", loot = {} },
+            { name = "Warlord Kalithresh", loot = {} },
+        },
+    },
+    {
+        id = "steamvault_heroic",
+        name = "The Steamvault (Heroic)",
+        zone = "Coilfang Reservoir",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Hydromancer Thespia", loot = {} },
+            { name = "Mekgineer Steamrigger", loot = {} },
+            { name = "Warlord Kalithresh", loot = {} },
+        },
+    },
+    {
+        id = "mana_tombs",
+        name = "Mana-Tombs",
+        zone = "Auchindoun",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Pandemonius", loot = {} },
+            { name = "Tavarok", loot = {} },
+            { name = "Nexus-Prince Shaffar", loot = {} },
+        },
+    },
+    {
+        id = "mana_tombs_heroic",
+        name = "Mana-Tombs (Heroic)",
+        zone = "Auchindoun",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Pandemonius", loot = {} },
+            { name = "Tavarok", loot = {} },
+            { name = "Nexus-Prince Shaffar", loot = {} },
+        },
+    },
+    {
+        id = "auchenai_crypts",
+        name = "Auchenai Crypts",
+        zone = "Auchindoun",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Shirrak the Dead Watcher", loot = {} },
+            { name = "Exarch Maladaar", loot = {} },
+        },
+    },
+    {
+        id = "auchenai_crypts_heroic",
+        name = "Auchenai Crypts (Heroic)",
+        zone = "Auchindoun",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Shirrak the Dead Watcher", loot = {} },
+            { name = "Exarch Maladaar", loot = {} },
+        },
+    },
+    {
+        id = "sethekk_halls",
+        name = "Sethekk Halls",
+        zone = "Auchindoun",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Darkweaver Syth", loot = {} },
+            { name = "Talon King Ikiss", loot = {} },
+            { name = "Anzu", loot = {} },
+        },
+    },
+    {
+        id = "sethekk_halls_heroic",
+        name = "Sethekk Halls (Heroic)",
+        zone = "Auchindoun",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Darkweaver Syth", loot = {} },
+            { name = "Talon King Ikiss", loot = {} },
+            { name = "Anzu", loot = {} },
+        },
+    },
+    {
+        id = "shadow_labyrinth",
+        name = "Shadow Labyrinth",
+        zone = "Auchindoun",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Ambassador Hellmaw", loot = {} },
+            { name = "Blackheart the Inciter", loot = {} },
+            { name = "Grandmaster Vorpil", loot = {} },
+            { name = "Murmur", loot = {} },
+        },
+    },
+    {
+        id = "shadow_labyrinth_heroic",
+        name = "Shadow Labyrinth (Heroic)",
+        zone = "Auchindoun",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Ambassador Hellmaw", loot = {} },
+            { name = "Blackheart the Inciter", loot = {} },
+            { name = "Grandmaster Vorpil", loot = {} },
+            { name = "Murmur", loot = {} },
+        },
+    },
+    {
+        id = "old_hillsbrad",
+        name = "Old Hillsbrad Foothills",
+        zone = "Caverns of Time",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Lieutenant Drake", loot = {} },
+            { name = "Captain Skarloc", loot = {} },
+            { name = "Epoch Hunter", loot = {} },
+        },
+    },
+    {
+        id = "old_hillsbrad_heroic",
+        name = "Old Hillsbrad Foothills (Heroic)",
+        zone = "Caverns of Time",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Lieutenant Drake", loot = {} },
+            { name = "Captain Skarloc", loot = {} },
+            { name = "Epoch Hunter", loot = {} },
+        },
+    },
+    {
+        id = "black_morass",
+        name = "The Black Morass",
+        zone = "Caverns of Time",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Chrono Lord Deja", loot = {} },
+            { name = "Temporus", loot = {} },
+            { name = "Aeonus", loot = {} },
+        },
+    },
+    {
+        id = "black_morass_heroic",
+        name = "The Black Morass (Heroic)",
+        zone = "Caverns of Time",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Chrono Lord Deja", loot = {} },
+            { name = "Temporus", loot = {} },
+            { name = "Aeonus", loot = {} },
+        },
+    },
+    {
+        id = "mechanar",
+        name = "The Mechanar",
+        zone = "Tempest Keep",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Gatewatcher Gyro-Kill", loot = {} },
+            { name = "Gatewatcher Iron-Hand", loot = {} },
+            { name = "Mechano-Lord Capacitus", loot = {} },
+            { name = "Nethermancer Sepethrea", loot = {} },
+            { name = "Pathaleon the Calculator", loot = {} },
+        },
+    },
+    {
+        id = "mechanar_heroic",
+        name = "The Mechanar (Heroic)",
+        zone = "Tempest Keep",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Gatewatcher Gyro-Kill", loot = {} },
+            { name = "Gatewatcher Iron-Hand", loot = {} },
+            { name = "Mechano-Lord Capacitus", loot = {} },
+            { name = "Nethermancer Sepethrea", loot = {} },
+            { name = "Pathaleon the Calculator", loot = {} },
+        },
+    },
+    {
+        id = "botanica",
+        name = "The Botanica",
+        zone = "Tempest Keep",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Commander Sarannis", loot = {} },
+            { name = "High Botanist Freywinn", loot = {} },
+            { name = "Thorngrin the Tender", loot = {} },
+            { name = "Laj", loot = {} },
+            { name = "Warp Splinter", loot = {} },
+        },
+    },
+    {
+        id = "botanica_heroic",
+        name = "The Botanica (Heroic)",
+        zone = "Tempest Keep",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Commander Sarannis", loot = {} },
+            { name = "High Botanist Freywinn", loot = {} },
+            { name = "Thorngrin the Tender", loot = {} },
+            { name = "Laj", loot = {} },
+            { name = "Warp Splinter", loot = {} },
+        },
+    },
+    {
+        id = "arcatraz",
+        name = "The Arcatraz",
+        zone = "Tempest Keep",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Zereketh the Unbound", loot = {} },
+            { name = "Dalliah the Doomsayer", loot = {} },
+            { name = "Wrath-Scryer Soccothrates", loot = {} },
+            { name = "Harbinger Skyriss", loot = {} },
+        },
+    },
+    {
+        id = "arcatraz_heroic",
+        name = "The Arcatraz (Heroic)",
+        zone = "Tempest Keep",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Zereketh the Unbound", loot = {} },
+            { name = "Dalliah the Doomsayer", loot = {} },
+            { name = "Wrath-Scryer Soccothrates", loot = {} },
+            { name = "Harbinger Skyriss", loot = {} },
+        },
+    },
+    {
+        id = "magisters_terrace",
+        name = "Magisters' Terrace",
+        zone = "Isle of Quel'Danas",
+        difficulty = "Normal",
+        bosses = {
+            { name = "Selin Fireheart", loot = {} },
+            { name = "Vexallus", loot = {} },
+            { name = "Priestess Delrissa", loot = {} },
+            { name = "Kael'thas Sunstrider", loot = {} },
+        },
+    },
+    {
+        id = "magisters_terrace_heroic",
+        name = "Magisters' Terrace (Heroic)",
+        zone = "Isle of Quel'Danas",
+        difficulty = "Heroic",
+        bosses = {
+            { name = "Selin Fireheart", loot = {} },
+            { name = "Vexallus", loot = {} },
+            { name = "Priestess Delrissa", loot = {} },
+            { name = "Kael'thas Sunstrider", loot = {} },
+        },
+    },
+    {
+        id = "karazhan",
+        name = "Karazhan",
+        zone = "Deadwind Pass",
+        difficulty = "Raid",
+        bosses = {
+            { name = "Attumen the Huntsman", loot = {} },
+            { name = "Moroes", loot = {} },
+            { name = "Maiden of Virtue", loot = {} },
+            { name = "Opera Event", loot = {} },
+            { name = "The Curator", loot = {} },
+            { name = "Terestian Illhoof", loot = {} },
+            { name = "Shade of Aran", loot = {} },
+            { name = "Netherspite", loot = {} },
+            { name = "Chess Event", loot = {} },
+            { name = "Prince Malchezaar", loot = {} },
+            { name = "Nightbane", loot = {} },
+        },
+    },
+    {
+        id = "gruuls_lair",
+        name = "Gruul's Lair",
+        zone = "Blade's Edge Mountains",
+        difficulty = "Raid",
+        bosses = {
+            { name = "High King Maulgar", loot = {} },
+            { name = "Gruul the Dragonkiller", loot = {} },
+        },
+    },
+    {
+        id = "magtheridons_lair",
+        name = "Magtheridon's Lair",
+        zone = "Hellfire Peninsula",
+        difficulty = "Raid",
+        bosses = {
+            { name = "Magtheridon", loot = {} },
+        },
+    },
+    {
+        id = "serpentshrine_cavern",
+        name = "Serpentshrine Cavern",
+        zone = "Coilfang Reservoir",
+        difficulty = "Raid",
+        bosses = {
+            { name = "Hydross the Unstable", loot = {} },
+            { name = "The Lurker Below", loot = {} },
+            { name = "Leotheras the Blind", loot = {} },
+            { name = "Fathom-Lord Karathress", loot = {} },
+            { name = "Morogrim Tidewalker", loot = {} },
+            { name = "Lady Vashj", loot = {} },
+        },
+    },
+    {
+        id = "tempest_keep",
+        name = "The Eye",
+        zone = "Tempest Keep",
+        difficulty = "Raid",
+        bosses = {
+            { name = "Al'ar", loot = {} },
+            { name = "Void Reaver", loot = {} },
+            { name = "High Astromancer Solarian", loot = {} },
+            { name = "Kael'thas Sunstrider", loot = {} },
+        },
+    },
+    {
+        id = "mount_hyjal",
+        name = "The Battle for Mount Hyjal",
+        zone = "Caverns of Time",
+        difficulty = "Raid",
+        bosses = {
+            { name = "Rage Winterchill", loot = {} },
+            { name = "Anetheron", loot = {} },
+            { name = "Kaz'rogal", loot = {} },
+            { name = "Azgalor", loot = {} },
+            { name = "Archimonde", loot = {} },
+        },
+    },
+    {
+        id = "black_temple",
+        name = "Black Temple",
+        zone = "Shadowmoon Valley",
+        difficulty = "Raid",
+        bosses = {
+            { name = "High Warlord Naj'entus", loot = {} },
+            { name = "Supremus", loot = {} },
+            { name = "Shade of Akama", loot = {} },
+            { name = "Teron Gorefiend", loot = {} },
+            { name = "Gurtogg Bloodboil", loot = {} },
+            { name = "Reliquary of Souls", loot = {} },
+            { name = "Mother Shahraz", loot = {} },
+            { name = "The Illidari Council", loot = {} },
+            { name = "Illidan Stormrage", loot = {} },
+        },
+    },
+    {
+        id = "sunwell_plateau",
+        name = "Sunwell Plateau",
+        zone = "Isle of Quel'Danas",
+        difficulty = "Raid",
+        bosses = {
+            { name = "Kalecgos", loot = {} },
+            { name = "Brutallus", loot = {} },
+            { name = "Felmyst", loot = {} },
+            { name = "Eredar Twins", loot = {} },
+            { name = "M'uru", loot = {} },
+            { name = "Kil'jaeden", loot = {} },
+        },
+    },
 }
+
+
+
+local function NormalizeLootItem(item)
+    local itemID
+    local quality = 3
+    local name = "Unknown Item"
+    local icon = 134400
+    local stats = {}
+
+    if type(item) == "number" then
+        itemID = item
+    elseif type(item) == "table" then
+        itemID = item.itemID or item.id
+        quality = item.quality or quality
+        name = item.name or name
+        icon = item.icon or icon
+        if type(item.stats) == "table" then
+            stats = item.stats
+        elseif type(item.tooltip) == "table" then
+            stats = item.tooltip
+        end
+    end
+
+    if itemID then
+        local itemName, _, itemQuality, _, _, _, _, _, _, itemIcon = GetItemInfo(itemID)
+        name = name ~= "Unknown Item" and name or itemName or ("Item #" .. itemID)
+        quality = quality or itemQuality or 3
+        icon = icon ~= 134400 and icon or itemIcon or 134400
+    end
+
+    return {
+        itemID = itemID,
+        quality = quality or 3,
+        name = name,
+        icon = icon,
+        stats = stats,
+    }
+end
+
+local function NormalizeBosses(bossesData)
+    local bosses = {}
+    if type(bossesData) ~= "table" then
+        return bosses
+    end
+
+    if bossesData[1] then
+        for _, boss in ipairs(bossesData) do
+            if type(boss) == "table" and boss.name then
+                local loot = {}
+                for _, item in ipairs(boss.loot or boss.items or {}) do
+                    table.insert(loot, NormalizeLootItem(item))
+                end
+                table.insert(bosses, { name = boss.name, loot = loot })
+            end
+        end
+    else
+        for bossName, items in pairs(bossesData) do
+            local loot = {}
+            if type(items) == "table" then
+                for _, item in ipairs(items) do
+                    table.insert(loot, NormalizeLootItem(item))
+                end
+            end
+            table.insert(bosses, { name = bossName, loot = loot })
+        end
+    end
+
+    table.sort(bosses, function(a, b)
+        return (a.name or "") < (b.name or "")
+    end)
+
+    return bosses
+end
+
+local function BuildDungeonsFromBossItemMap(mapData)
+    if type(mapData) ~= "table" then
+        return nil
+    end
+
+    local dungeons = {}
+    local function addDungeon(instanceName, difficultyName, instanceData)
+        if type(instanceData) ~= "table" then
+            return
+        end
+
+        local bosses = NormalizeBosses(instanceData.bosses or instanceData)
+        if #bosses == 0 then
+            return
+        end
+
+        local difficulty = difficultyName or instanceData.difficulty or "Normal"
+        local displayName = instanceName
+        if difficulty == "Heroic" and not string.find(displayName or "", "(Heroic)", 1, true) then
+            displayName = (displayName or "") .. " (Heroic)"
+        end
+
+        table.insert(dungeons, {
+            id = string.lower((displayName or "instance"):gsub("[^%w]+", "_")),
+            name = displayName,
+            zone = instanceData.zone or "Outland",
+            difficulty = difficulty,
+            bosses = bosses,
+        })
+    end
+
+    if mapData[1] then
+        for _, entry in ipairs(mapData) do
+            if type(entry) == "table" and entry.instance then
+                addDungeon(entry.instance, entry.difficulty, entry)
+            end
+        end
+    else
+        for instanceName, instanceData in pairs(mapData) do
+            if type(instanceData) == "table" and instanceData.bosses then
+                addDungeon(instanceName, instanceData.difficulty, instanceData)
+            elseif type(instanceData) == "table" then
+                local usedAsDifficulties = false
+                for diffName, diffData in pairs(instanceData) do
+                    if type(diffData) == "table" and (diffData.bosses or diffData[1] or next(diffData)) then
+                        usedAsDifficulties = true
+                        local diff = diffData.difficulty or diffName
+                        addDungeon(instanceName, diff, diffData)
+                    end
+                end
+                if not usedAsDifficulties then
+                    addDungeon(instanceName, "Normal", instanceData)
+                end
+            end
+        end
+    end
+
+    table.sort(dungeons, function(a, b)
+        return (a.name or "") < (b.name or "")
+    end)
+
+    return #dungeons > 0 and dungeons or nil
+end
+
+local INSTANCE_KEY_TO_NAME = {
+    HellfireRamparts = "Hellfire Ramparts",
+    TheBloodFurnace = "The Blood Furnace",
+    TheShatteredHalls = "The Shattered Halls",
+    ManaTombs = "Mana-Tombs",
+    AuchenaiCrypts = "Auchenai Crypts",
+    SethekkHalls = "Sethekk Halls",
+    ShadowLabyrinth = "Shadow Labyrinth",
+    TheSlavePens = "The Slave Pens",
+    TheUnderbog = "The Underbog",
+    TheSteamvault = "The Steamvault",
+    OldHillsbradFoothills = "Old Hillsbrad Foothills",
+    TheBlackMorass = "The Black Morass",
+    TheMechanar = "The Mechanar",
+    TheBotanica = "The Botanica",
+    TheArcatraz = "The Arcatraz",
+    MagistersTerrace = "Magisters' Terrace",
+    Karazhan = "Karazhan",
+    GruulsLair = "Gruul's Lair",
+    MagtheridonsLair = "Magtheridon's Lair",
+    SerpentshrineCavern = "Serpentshrine Cavern",
+    TheEye = "The Eye",
+    TheBattleForMountHyjal = "The Battle for Mount Hyjal",
+    BlackTemple = "Black Temple",
+    SunwellPlateau = "Sunwell Plateau",
+}
+
+local INSTANCE_NAME_TO_ZONE = {
+    ["Hellfire Ramparts"] = "Hellfire Citadel",
+    ["The Blood Furnace"] = "Hellfire Citadel",
+    ["The Shattered Halls"] = "Hellfire Citadel",
+    ["Mana-Tombs"] = "Auchindoun",
+    ["Auchenai Crypts"] = "Auchindoun",
+    ["Sethekk Halls"] = "Auchindoun",
+    ["Shadow Labyrinth"] = "Auchindoun",
+    ["The Slave Pens"] = "Coilfang Reservoir",
+    ["The Underbog"] = "Coilfang Reservoir",
+    ["The Steamvault"] = "Coilfang Reservoir",
+    ["Old Hillsbrad Foothills"] = "Caverns of Time",
+    ["The Black Morass"] = "Caverns of Time",
+    ["The Mechanar"] = "Tempest Keep",
+    ["The Botanica"] = "Tempest Keep",
+    ["The Arcatraz"] = "Tempest Keep",
+    ["Magisters' Terrace"] = "Isle of Quel'Danas",
+    ["Karazhan"] = "Deadwind Pass",
+    ["Gruul's Lair"] = "Blade's Edge Mountains",
+    ["Magtheridon's Lair"] = "Hellfire Peninsula",
+    ["Serpentshrine Cavern"] = "Coilfang Reservoir",
+    ["The Eye"] = "Tempest Keep",
+    ["The Battle for Mount Hyjal"] = "Caverns of Time",
+    ["Black Temple"] = "Shadowmoon Valley",
+    ["Sunwell Plateau"] = "Isle of Quel'Danas",
+}
+
+local function NormalizeDifficultyName(value)
+    local lowered = string.lower(tostring(value or "normal"))
+    if lowered == "heroic" then return "Heroic" end
+    if lowered == "raid" then return "Raid" end
+    return "Normal"
+end
+
+local function BuildDungeonsFromAtlasLootDrops(data)
+    if type(data) ~= "table" or type(data.instances) ~= "table" then
+        return nil
+    end
+
+    local dungeonByID = {}
+    local order = {}
+
+    local function getDungeon(instanceName, zoneName, difficultyName)
+        local displayName = instanceName
+        if difficultyName == "Heroic" and not string.find(displayName, "(Heroic)", 1, true) then
+            displayName = displayName .. " (Heroic)"
+        end
+
+        local id = string.lower((displayName or "instance"):gsub("[^%w]+", "_"))
+        if not dungeonByID[id] then
+            dungeonByID[id] = {
+                id = id,
+                name = displayName,
+                zone = zoneName or "Outland",
+                difficulty = difficultyName,
+                bosses = {},
+                _bossByName = {},
+            }
+            table.insert(order, id)
+        end
+
+        return dungeonByID[id]
+    end
+
+    for _, instance in ipairs(data.instances) do
+        local instanceName = instance.instanceName or INSTANCE_KEY_TO_NAME[instance.instanceKey] or instance.instanceKey
+        local zoneName = INSTANCE_NAME_TO_ZONE[instanceName] or "Outland"
+
+        for _, boss in ipairs(instance.bosses or {}) do
+            local bossName = boss.bossName or boss.bossKey or "Unknown Boss"
+            for difficultyKey, items in pairs(boss.itemsByDifficulty or {}) do
+                local difficultyName = NormalizeDifficultyName(difficultyKey)
+                if type(items) == "table" and #items > 0 then
+                    local dungeon = getDungeon(instanceName, zoneName, difficultyName)
+                    local bossEntry = dungeon._bossByName[bossName]
+                    if not bossEntry then
+                        bossEntry = { name = bossName, key = boss.bossKey, loot = {} }
+                        dungeon._bossByName[bossName] = bossEntry
+                        table.insert(dungeon.bosses, bossEntry)
+                    end
+
+                    for _, item in ipairs(items) do
+                        local normalized = NormalizeLootItem(item)
+                        if normalized.itemID then
+                            table.insert(bossEntry.loot, normalized)
+                        end
+                    end
+                end
+            end
+        end
+    end
+
+    local dungeons = {}
+    for _, id in ipairs(order) do
+        local dungeon = dungeonByID[id]
+        dungeon._bossByName = nil
+        table.sort(dungeon.bosses, function(a, b)
+            return (a.name or "") < (b.name or "")
+        end)
+        table.insert(dungeons, dungeon)
+    end
+
+    table.sort(dungeons, function(a, b)
+        return (a.name or "") < (b.name or "")
+    end)
+
+    return #dungeons > 0 and dungeons or nil
+end
+
+local function ApplyItemSourcesToDungeons(dungeons, itemSources)
+    if type(dungeons) ~= "table" or type(itemSources) ~= "table" then
+        return dungeons
+    end
+
+    local dungeonLookup = {}
+    for _, dungeon in ipairs(dungeons) do
+        dungeonLookup[dungeon.name] = dungeon
+    end
+
+    for itemID, sources in pairs(itemSources) do
+        local numericItemID = tonumber(itemID)
+        if numericItemID and type(sources) == "table" then
+            for _, src in ipairs(sources) do
+                local instanceName = INSTANCE_KEY_TO_NAME[src.instance] or src.instance
+                local difficulty = NormalizeDifficultyName(src.difficulty)
+                local dungeonName = difficulty == "Heroic" and (instanceName .. " (Heroic)") or instanceName
+                local dungeon = dungeonLookup[dungeonName]
+
+                if dungeon then
+                    local bossName = src.boss
+                    local bossEntry
+                    for _, boss in ipairs(dungeon.bosses) do
+                        if boss.name == bossName or boss.name == (src.bossName or "") or boss.key == src.boss then
+                            bossEntry = boss
+                            break
+                        end
+                    end
+
+                    if bossEntry then
+                        local exists = false
+                        for _, it in ipairs(bossEntry.loot) do
+                            if it.itemID == numericItemID then
+                                exists = true
+                                break
+                            end
+                        end
+                        if not exists then
+                            table.insert(bossEntry.loot, NormalizeLootItem({ itemID = numericItemID }))
+                        end
+                    end
+                end
+            end
+        end
+    end
+
+    return dungeons
+end
+
+local generatedDungeons = BuildDungeonsFromBossItemMap(TBC_BOSS_ITEM_MAP)
+if not generatedDungeons then
+    generatedDungeons = BuildDungeonsFromAtlasLootDrops(TBC_DROPS_ATLASLOOTCLASSIC)
+    generatedDungeons = ApplyItemSourcesToDungeons(generatedDungeons, TBC_ITEM_SOURCES)
+end
+
+if generatedDungeons then
+    LootBrowser.dungeons = generatedDungeons
+end
 
 local function GetQualityColor(quality)
     local color = ITEM_QUALITY_COLORS and ITEM_QUALITY_COLORS[quality or 1]
@@ -105,6 +905,14 @@ local function BuildMainFrame()
     dungeonHeader:SetPoint("TOPLEFT", 10, -10)
     dungeonHeader:SetText("Dungeons / Raids")
 
+    local dungeonScroll = CreateFrame("ScrollFrame", nil, leftPanel, "UIPanelScrollFrameTemplate")
+    dungeonScroll:SetPoint("TOPLEFT", 8, -30)
+    dungeonScroll:SetPoint("BOTTOMRIGHT", -28, 8)
+
+    local dungeonScrollChild = CreateFrame("Frame", nil, dungeonScroll)
+    dungeonScrollChild:SetSize(180, 1)
+    dungeonScroll:SetScrollChild(dungeonScrollChild)
+
     local rightPanel = CreateFrame("Frame", nil, frame, "BackdropTemplate")
     rightPanel:SetPoint("TOPLEFT", leftPanel, "TOPRIGHT", 10, 0)
     rightPanel:SetPoint("BOTTOMRIGHT", -12, 12)
@@ -135,6 +943,7 @@ local function BuildMainFrame()
     scrollFrame:SetScrollChild(scrollChild)
 
     frame.leftPanel = leftPanel
+    frame.dungeonScrollChild = dungeonScrollChild
     frame.rightPanel = rightPanel
     frame.contentTitle = contentTitle
     frame.scrollChild = scrollChild
@@ -345,7 +1154,12 @@ local function RenderDungeon(dungeon)
     end
     parent.rows = {}
 
-    frame.contentTitle:SetText(dungeon.name .. "  -  " .. dungeon.zone)
+    local titleName = dungeon.name or "Unknown"
+    local difficultySuffix = ""
+    if dungeon.difficulty and not string.find(titleName, "(Heroic)", 1, true) then
+        difficultySuffix = " [" .. dungeon.difficulty .. "]"
+    end
+    frame.contentTitle:SetText(titleName .. difficultySuffix .. "  -  " .. (dungeon.zone or "Unknown Zone"))
 
     local y = -4
     for _, boss in ipairs(dungeon.bosses) do
@@ -411,7 +1225,7 @@ local function BuildDungeonButtons()
     local y = -34
 
     for _, dungeon in ipairs(LootBrowser.dungeons) do
-        local button = CreateFrame("Button", nil, frame.leftPanel, "UIPanelButtonTemplate")
+        local button = CreateFrame("Button", nil, frame.dungeonScrollChild, "UIPanelButtonTemplate")
         button:SetSize(196, 30)
         button:SetPoint("TOPLEFT", 10, y)
         button:SetText(dungeon.name)
@@ -424,6 +1238,7 @@ local function BuildDungeonButtons()
     end
 
     frame.dungeonButtons = buttons
+    frame.dungeonScrollChild:SetHeight(math.max(1, #buttons * 36))
 
     if LootBrowser.dungeons[1] then
         RenderDungeon(LootBrowser.dungeons[1])

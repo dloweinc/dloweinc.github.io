@@ -1,0 +1,23 @@
+-- Paste atlasloot-style structured drop data here as a Lua table.
+-- Example:
+-- TBC_DROPS_ATLASLOOTCLASSIC = {
+--   expansion = "TBC",
+--   instances = {
+--     {
+--       instanceKey = "HellfireRamparts",
+--       instanceName = "Hellfire Ramparts",
+--       bosses = {
+--         {
+--           bossKey = "HCRampWatchkeeper",
+--           bossName = "Watchkeeper Gargolmar",
+--           itemsByDifficulty = {
+--             normal = { { itemID = 24024 }, { itemID = 24023 } },
+--             heroic = { { itemID = 27447 }, { itemID = 27449 } },
+--           },
+--         },
+--       },
+--     },
+--   },
+-- }
+
+TBC_DROPS_ATLASLOOTCLASSIC = TBC_DROPS_ATLASLOOTCLASSIC or nil

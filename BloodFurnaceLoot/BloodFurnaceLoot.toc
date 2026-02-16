@@ -5,4 +5,7 @@
 ## Version: 0.1.0
 ## SavedVariables: LootBrowserDB
 
+tbc_drops_atlaslootclassic.lua
+tbc_item_sources.lua
+tbc_boss_item_map.lua
 BloodFurnaceLoot.lua
