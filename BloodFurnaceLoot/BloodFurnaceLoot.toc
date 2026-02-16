@@ -6,4 +6,5 @@
 ## SavedVariables: LootBrowserDB
 ## OptionalDeps: Blizzard_EncounterJournal
 
+tbc_boss_item_map.lua
 BloodFurnaceLoot.lua
