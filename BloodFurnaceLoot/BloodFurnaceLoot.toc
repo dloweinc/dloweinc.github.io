@@ -5,4 +5,5 @@
 ## Version: 0.1.0
 ## SavedVariables: LootBrowserDB
 
+tbc_boss_item_map.lua
 BloodFurnaceLoot.lua
