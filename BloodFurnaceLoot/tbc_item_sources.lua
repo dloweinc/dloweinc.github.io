@@ -1,0 +1,13923 @@
+TBC_ITEM_SOURCES = {
+  [24024] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24023] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24022] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24021] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24020] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23881] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29434] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCacheoftheLegion",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30593] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30594] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30592] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27448] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27451] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27450] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27447] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27449] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampWatchkeeper",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24090] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24091] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24073] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24096] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24094] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24069] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23886] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27466] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27462] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27467] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27478] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27539] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27906] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27464] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27895] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27477] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27463] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27476] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27465] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampOmor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24150] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24083] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24063] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24046] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24064] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24045] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24154] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24151] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24044] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24155] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23891] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29264] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32077] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29238] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29346] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27452] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27461] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27456] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27454] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27458] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27455] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27459] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27457] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27453] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27460] = {
+    {
+      ["instance"] = "HellfireRamparts",
+      ["boss"] = "HCRampFelIronChest",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24388] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24387] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24385] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24386] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24384] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30601] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30600] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30602] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27485] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27488] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27483] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27487] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27484] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceMaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24392] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24393] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24391] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24390] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24389] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27848] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27492] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27489] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27491] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27490] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBroggok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24397] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24395] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24398] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24396] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24394] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32080] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29245] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29239] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29347] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27506] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27514] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27522] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27494] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27505] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27788] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27495] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28121] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28264] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27497] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27512] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27507] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33814] = {
+    {
+      ["instance"] = "TheBloodFurnace",
+      ["boss"] = "HCFurnaceBreaker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24312] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27519] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27517] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27521] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27520] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27518] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [21525] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [23735] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30548] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30547] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30546] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [25462] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsNethekurse",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30709] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30707] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30708] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30705] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30710] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsPorung",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27525] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27868] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27524] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27526] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30829] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27802] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsOmrogg",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27527] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27529] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27534] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27533] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27538] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27540] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [23723] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27536] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27537] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27531] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27474] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27528] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27535] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29255] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29263] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29254] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29348] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33815] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsKargath",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31716] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsExecutioner",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [22554] = {
+    {
+      ["instance"] = "TheShatteredHalls",
+      ["boss"] = "HCHallsTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25941] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25942] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25940] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25943] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28166] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25939] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30584] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30585] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30583] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27816] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27818] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27813] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27815] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27814] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27817] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaPandemonius",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [25945] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25946] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25947] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25952] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25944] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25950] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27824] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27821] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27825] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27826] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27823] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27822] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTavarok",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [25957] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25955] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25956] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25954] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25962] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25953] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22921] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28490] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29240] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30535] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29352] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32082] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27831] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27843] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27827] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27835] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27844] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27798] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33835] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27837] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27828] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28400] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27829] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27840] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27842] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaNexusPrince",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31919] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31920] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31921] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31922] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31923] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31924] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31554] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31562] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31570] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31578] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaYor",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [23615] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22543] = {
+    {
+      ["instance"] = "Mana-Tombs",
+      ["boss"] = "AuchManaTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27410] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27409] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27408] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "normal",
+    },
+  },
+  [26055] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25964] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30587] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30588] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30586] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27866] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27493] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27865] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27845] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27847] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27846] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsShirrak",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27411] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27415] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27414] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27413] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27416] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27412] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29354] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29257] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29244] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27867] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27871] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27869] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27523] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27872] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33836] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27870] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsExarch",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27878] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsAvatar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28268] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsAvatar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27876] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsAvatar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27937] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsAvatar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27877] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsAvatar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27797] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsAvatar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [23605] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22544] = {
+    {
+      ["instance"] = "AuchenaiCrypts",
+      ["boss"] = "AuchCryptsTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27919] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27914] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27915] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27918] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27917] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27916] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24160] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27633] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30553] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30554] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30552] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [25461] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkDarkweaver",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27946] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27981] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27985] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27925] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27980] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27986] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27632] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27991] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27948] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27838] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27875] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27776] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27936] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29249] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29259] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32073] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29355] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33834] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTalonKing",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32768] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32769] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32778] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32779] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32781] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32780] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkRavenGod",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27634] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTheSagaofTerokk",
+      ["difficulty"] = "normal",
+    },
+  },
+  [25731] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29669] = {
+    {
+      ["instance"] = "SethekkHalls",
+      ["boss"] = "AuchSethekkTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27889] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27888] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27884] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27886] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27887] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27885] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30563] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30559] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30560] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowHellmaw",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27892] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27893] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28134] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27891] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27890] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [25728] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30808] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27468] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowBlackheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27897] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27900] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27901] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27898] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30827] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27775] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowGrandmaster",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24309] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27902] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27912] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27913] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27905] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27903] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27910] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27778] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28232] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28230] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27908] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27909] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27803] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30532] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29357] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29261] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29353] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31722] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33840] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowMurmur",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24514] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowFirstFragmentGuardian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23607] = {
+    {
+      ["instance"] = "ShadowLabyrinth",
+      ["boss"] = "AuchShadowTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24359] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24357] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24360] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24356] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24361] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29674] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30604] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30605] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30603] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27542] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27545] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27541] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27546] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27544] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27543] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveMennu",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24379] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24376] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24378] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24380] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24381] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27550] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27547] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28124] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27549] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27548] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27551] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveRokmar",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24362] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24365] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24366] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24363] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24364] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29242] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30538] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32078] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29349] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27712] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27800] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28337] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27672] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27742] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33821] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27796] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27713] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27740] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27683] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27714] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27673] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27741] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveQuagmirran",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [54806] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [54804] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [54802] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [54801] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [54805] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [54803] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35723] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35498] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34955] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [53641] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35557] = {
+    {
+      ["instance"] = "TheSlavePens",
+      ["boss"] = "CFRSlaveAhune",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24450] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24452] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24451] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24413] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27631] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30606] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30607] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30608] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27746] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27745] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27743] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27748] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27744] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27747] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderHungarfen",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24459] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24458] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24460] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24462] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24461] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27760] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27759] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27755] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27758] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27761] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27757] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderGhazan",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24454] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24455] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24457] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24456] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24453] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27764] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27763] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27765] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27766] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27762] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27767] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderSwamplord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24481] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24466] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24465] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24463] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24464] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24248] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29265] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30541] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32081] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29350] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27781] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27768] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27938] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27773] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27779] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27780] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27896] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27770] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27907] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27771] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27769] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27772] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33826] = {
+    {
+      ["instance"] = "TheUnderbog",
+      ["boss"] = "CFRUnderStalker",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27789] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27787] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27783] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27784] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29673] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30828] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27508] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30550] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30551] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30549] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamThespia",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27793] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27790] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27792] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27791] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27794] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [23887] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamSteamrigger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24313] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27804] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27799] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27795] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27806] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27805] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27738] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27737] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27801] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27510] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27874] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28203] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27475] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30543] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29243] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29463] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29351] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31721] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33827] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamWarlord",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24159] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22533] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24367] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24368] = {
+    {
+      ["instance"] = "TheSteamvault",
+      ["boss"] = "CFRSteamTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27423] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27418] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27417] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27420] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27436] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30589] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30591] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30590] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28212] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28214] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28215] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28211] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28213] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28210] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDrake",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27428] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27430] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27427] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27424] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27426] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "normal",
+    },
+  },
+  [21524] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [22927] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28218] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28220] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28219] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28221] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28217] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28216] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradSkarloc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24173] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27433] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27434] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27440] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27432] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27431] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29250] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29246] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30534] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30536] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27911] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28344] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28233] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27904] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28227] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28223] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28226] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28222] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28191] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28224] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28401] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28225] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33847] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradHunter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [38276] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDonCarlos",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDonCarlos",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [38329] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDonCarlos",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDonCarlos",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [38506] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradDonCarlos",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [25729] = {
+    {
+      ["instance"] = "OldHillsbradFoothills",
+      ["boss"] = "CoTHillsbradTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [27988] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27994] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27995] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27993] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27996] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27987] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29675] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30558] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30556] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30555] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassDeja",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28185] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28186] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28034] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28187] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28184] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28033] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTemporus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28206] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28194] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28207] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28190] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28189] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28188] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28193] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27509] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27873] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28192] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27977] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27839] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30531] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29247] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29253] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29356] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33858] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassAeonus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [25730] = {
+    {
+      ["instance"] = "TheBlackMorass",
+      ["boss"] = "CoTMorassTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28373] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28374] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28384] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28375] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28372] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30582] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30575] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30581] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcUnbound",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24308] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28391] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28390] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28387] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28392] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28386] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcDalliah",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28396] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28398] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28394] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28393] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28397] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcScryer",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28406] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28419] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28407] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28418] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28412] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28416] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28415] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28413] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28414] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28231] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28403] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28205] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29241] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29248] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29252] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29360] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33861] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcHarbinger",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24488] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcThirdFragmentGuardian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23606] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22556] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29672] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [21905] = {
+    {
+      ["instance"] = "TheArcatraz",
+      ["boss"] = "TKArcTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28301] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28304] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28306] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28296] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28311] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28769] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30574] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30572] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30573] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSarannis",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28317] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28318] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28321] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28315] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28316] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [23617] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31744] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotFreywinn",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24310] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28324] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28327] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28323] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28322] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28325] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotThorngrin",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28328] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28338] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28340] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28339] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27739] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotLaj",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24311] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28371] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28342] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28347] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28343] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28370] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28345] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28367] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28341] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31085] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28229] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28348] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28349] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28228] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28350] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29258] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29262] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32072] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29359] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33859] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotSplinter",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [24172] = {
+    {
+      ["instance"] = "TheBotanica",
+      ["boss"] = "TKBotTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28256] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28255] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28254] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28257] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28253] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [35582] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30565] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30566] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30564] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCapacitus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28262] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28259] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28260] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28263] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28258] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [22920] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechSepethrea",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28269] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28266] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28265] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28288] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [27899] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28267] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28286] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [21907] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [31086] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28278] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28202] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28204] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28275] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28285] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29251] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [32076] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30533] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [29362] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [33860] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCalc",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28249] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCacheoftheLegion",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28250] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCacheoftheLegion",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28252] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCacheoftheLegion",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28251] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCacheoftheLegion",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [28248] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechCacheoftheLegion",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [30436] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechGyro",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30437] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechIron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30824] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechOverchargedManacell",
+      ["difficulty"] = "normal",
+    },
+  },
+  [21906] = {
+    {
+      ["instance"] = "TheMechanar",
+      ["boss"] = "TKMechTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34702] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34697] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34701] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34698] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34700] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34699] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34602] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34601] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34604] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34603] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [35275] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTFireheart",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "heroic",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34708] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34705] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34707] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34704] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34706] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34703] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34607] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34605] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34606] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34608] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTVexallus",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34792] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34788] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34791] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34789] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34790] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34783] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35756] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34473] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34471] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34470] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34472] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTDelrissa",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34810] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34808] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34809] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34799] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34807] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34625] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34793] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34796] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34795] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34798] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34794] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34797] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35504] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [35311] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [35304] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [35294] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34157] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34610] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34613] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34614] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34615] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34612] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34611] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34609] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [34616] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [35513] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTKaelthas",
+      ["difficulty"] = "heroic",
+    },
+  },
+  [35516] = {
+    {
+      ["instance"] = "MagistersTerrace",
+      ["boss"] = "SMTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28477] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28507] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28508] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28453] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28506] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28503] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28454] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28502] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28505] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28509] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28510] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28504] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30480] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23809] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAttumen",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30684] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30685] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30686] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30687] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30680] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30681] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30682] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30683] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30675] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30676] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30677] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30678] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNamed",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28529] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28570] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28565] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28545] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28567] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28566] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28569] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28530] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28528] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28525] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28568] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28524] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22559] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMoroes",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28511] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28515] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28517] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28514] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28521] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28520] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28519] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28512] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28518] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28516] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28523] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28522] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraMaiden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28586] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28585] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28587] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28588] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28594] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28591] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28589] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28593] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28590] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28592] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28582] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28583] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28584] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28581] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28578] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28579] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28572] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28573] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraOperaEvent",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28612] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28647] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28631] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28621] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28649] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28633] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29757] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29758] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29756] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraCurator",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28660] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28653] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28652] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28654] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28655] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28656] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28662] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28661] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28785] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28657] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28658] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28659] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22561] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraIllhoof",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28672] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28726] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28670] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28663] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28669] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28671] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28666] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23933] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28674] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28675] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28727] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28728] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28673] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22560] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraAran",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28744] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28742] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28732] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28741] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28735] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28740] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28743] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28733] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28731] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28730] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28734] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28729] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNetherspite",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28756] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28755] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28750] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28752] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28751] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28746] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28748] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28747] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28745] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28753] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28749] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28754] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraChess",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28765] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28766] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28764] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28762] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28763] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28757] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28770] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28768] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28767] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28773] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28771] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28772] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29760] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29761] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29759] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrince",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28602] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28600] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28601] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28599] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28610] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28597] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28608] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31751] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [24139] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28609] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28603] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28604] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28611] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28606] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraNightbane",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30642] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30668] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30673] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30644] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30674] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30643] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30641] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23857] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23864] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23862] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [23865] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [21882] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30666] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30667] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [21903] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [21904] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [22545] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [38658] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrinceT",
+      ["difficulty"] = "normal",
+    },
+  },
+  [39769] = {
+    {
+      ["instance"] = "Karazhan",
+      ["boss"] = "KaraPrinceT",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33286] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33215] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33216] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33281] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33293] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33214] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33283] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33307] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAAkilZon",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33203] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33285] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33211] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33206] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33327] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33191] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33640] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZANalorakk",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33357] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33356] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33329] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33328] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33354] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33326] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33332] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAJanAlai",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33317] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33300] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33322] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33533] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33299] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33303] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33297] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAHalazzi",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33592] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33453] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33463] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33432] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33464] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33421] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33446] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33829] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34029] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33828] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33389] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33298] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33388] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33465] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAMalacrass",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33471] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33479] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33469] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33473] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33466] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33830] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33831] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33467] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33478] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33476] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33468] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33474] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33102] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZAZuljin",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33590] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33591] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33489] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33480] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33483] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33971] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33805] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33481] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33497] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33500] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33496] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33499] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33498] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33495] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33493] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33492] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33490] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33494] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33491] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33809] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATimedChest",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33993] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33865] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33930] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33932] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33931] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33933] = {
+    {
+      ["instance"] = "ZulAman",
+      ["boss"] = "ZATrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30729] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30725] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30727] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30730] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30728] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30731] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30726] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30723] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30722] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30724] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "DDoomwalker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30735] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30734] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30737] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30739] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30740] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30741] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30736] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30738] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30733] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30732] = {
+    {
+      ["instance"] = "WorldBossesBC",
+      ["boss"] = "KKruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28777] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28780] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28776] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28778] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28775] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28779] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28789] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28781] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28774] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28782] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29458] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28783] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29754] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29753] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29755] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32385] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34845] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34846] = {
+    {
+      ["instance"] = "MagtheridonsLair",
+      ["boss"] = "HCMagtheridon",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28797] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28799] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28796] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28801] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28795] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28800] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29763] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29764] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29762] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulsLairHighKingMaulgar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28804] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28803] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28828] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28827] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28810] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28824] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28822] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28823] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28830] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31750] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29766] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29767] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29765] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28802] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28794] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28825] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [28826] = {
+    {
+      ["instance"] = "GruulsLair",
+      ["boss"] = "GruulGruul",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30056] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32516] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30050] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30055] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30047] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30054] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30048] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30053] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30052] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33055] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30664] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30629] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30049] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30051] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentHydross",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30064] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30067] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30062] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30060] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30066] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30065] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30057] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30059] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30061] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33054] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30665] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30063] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30058] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLurker",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30092] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30097] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30091] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30096] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30627] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30095] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30239] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30240] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30241] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentLeotheras",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30100] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30101] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30099] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30663] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30626] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30090] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30245] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30246] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30247] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentKarathress",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30098] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30079] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30075] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30085] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30068] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30084] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30081] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30008] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30083] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [33058] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30720] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30082] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30080] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentMorogrim",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30107] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30111] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30106] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30104] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30102] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30112] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30109] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30110] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30621] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30103] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30108] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30105] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30242] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30243] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30244] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29906] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentVashj",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30027] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30022] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30620] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30023] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30021] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30025] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30324] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30322] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30323] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30321] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30280] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30282] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30283] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30281] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30308] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30304] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30305] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30307] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30306] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30301] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30303] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30302] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30183] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32897] = {
+    {
+      ["instance"] = "SerpentshrineCavern",
+      ["boss"] = "CFRSerpentTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29925] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29918] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29947] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29921] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29922] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29920] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30448] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30447] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29923] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32944] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29948] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29924] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29949] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeAlar",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29986] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29984] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29985] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29983] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32515] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30619] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30450] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30248] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30249] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30250] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeVoidReaver",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29977] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29972] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29966] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29976] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29951] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29965] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29950] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32267] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30446] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30449] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29962] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29981] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29982] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeSolarian",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29992] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29989] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29994] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29990] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29987] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29995] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29991] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29998] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29997] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29993] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29996] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29988] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30236] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30237] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30238] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32458] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32405] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [29905] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeKaelthas",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30312] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeLegendaries",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30311] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeLegendaries",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30317] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeLegendaries",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30316] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeLegendaries",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30313] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeLegendaries",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30314] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeLegendaries",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30318] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeLegendaries",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30319] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeLegendaries",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30024] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30020] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30029] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30026] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30030] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30028] = {
+    {
+      ["instance"] = "TempestKeep",
+      ["boss"] = "TKEyeTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30871] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30870] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30863] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30868] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30864] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30869] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30873] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30866] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30862] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30861] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30865] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30872] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32459] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalWinterchill",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30884] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30888] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30885] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30879] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30886] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30887] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30880] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30878] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30874] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30881] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30883] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30882] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAnetheron",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30895] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30916] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30894] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30917] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30914] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30891] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30892] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30919] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30893] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30915] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30918] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30889] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalKazrogal",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30899] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30898] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30900] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30896] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30897] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30901] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31092] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31094] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31093] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalAzgalor",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30913] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30912] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30905] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30907] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30904] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30903] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30911] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30910] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30902] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30908] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30909] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [30906] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31097] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31095] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31096] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalArchimonde",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32590] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34010] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32609] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32592] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32591] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32589] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34009] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32946] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32945] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32428] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32285] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32296] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32303] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32295] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32298] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32297] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32289] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32307] = {
+    {
+      ["instance"] = "HyjalSummit",
+      ["boss"] = "MountHyjalTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32239] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32240] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32377] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32241] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32234] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32242] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32232] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32243] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32245] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32238] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32247] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32237] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32236] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32248] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTNajentus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32256] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32252] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32259] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32251] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32258] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32250] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32260] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32261] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32257] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32254] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32262] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32255] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32253] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTSupremus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32273] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32270] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32513] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32265] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32271] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32264] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32275] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32276] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32279] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32278] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32263] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32268] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32266] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32361] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTAkama",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32337] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32338] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32340] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32339] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32334] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32342] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32333] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32341] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32335] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32501] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32269] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32344] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32343] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTBloodboil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32353] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32351] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32347] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32352] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32517] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32346] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32354] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32345] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32349] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32362] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32350] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32332] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32363] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTEssencofSouls",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32323] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32329] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32327] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32324] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32328] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32510] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32280] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32512] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32330] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32348] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32326] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32325] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTGorefiend",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32367] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32366] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32365] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32370] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32368] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32369] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31101] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31103] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31102] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTShahraz",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32331] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32519] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32518] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32376] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32373] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32505] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31098] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31100] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31099] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTCouncil",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32524] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32525] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32235] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32521] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32497] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32483] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32496] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32837] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32838] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31089] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31091] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [31090] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32471] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32500] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32374] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32375] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32336] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTIllidanStormrage",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34012] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32593] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32608] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32606] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32526] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32528] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32527] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32943] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34011] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32228] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32231] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32229] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32249] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32230] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32227] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTTrash",
+      ["difficulty"] = "normal",
+    },
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32738] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32739] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32736] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32737] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32748] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32744] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32750] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32751] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32749] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32745] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32746] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32747] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32754] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32755] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32753] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [32752] = {
+    {
+      ["instance"] = "BlackTemple",
+      ["boss"] = "BTPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34170] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34386] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34169] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34384] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34168] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34167] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34382] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34166] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34848] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34851] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34852] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34165] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34164] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKalecgos",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34181] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34180] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34381] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34178] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34177] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34853] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34854] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34855] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34176] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34179] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPBrutallus",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34352] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34188] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34385] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34186] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34383] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34184] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34856] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34857] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34858] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34182] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34185] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPFelmyst",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34205] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34190] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34210] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34202] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34393] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34209] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34391] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34195] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34392] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34194] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34208] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34390] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34192] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34388] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34193] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34389] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35290] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35291] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35292] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34204] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34189] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34206] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34197] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34199] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34203] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34198] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34196] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPEredarTwins",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34232] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34233] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34399] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34212] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34398] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34211] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34397] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34234] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34408] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34229] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34396] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34228] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34215] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34394] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34240] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34216] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34395] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34213] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34230] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35282] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35283] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35284] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34427] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34430] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34429] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34428] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34214] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34231] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPMuru",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34241] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34242] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34339] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34405] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34340] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34342] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34406] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34344] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34244] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34404] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34245] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34403] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34333] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34332] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34402] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34343] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34243] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34401] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34345] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34400] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34341] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34334] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34329] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34247] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34335] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34331] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34336] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34337] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPKiljaeden",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35212] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35216] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35213] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35217] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35214] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35218] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35215] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35219] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35204] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35206] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35205] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35207] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35198] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35201] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35199] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35202] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35200] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35203] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35186] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35187] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35189] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35190] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35191] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35192] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35193] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35194] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35195] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35196] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35197] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPPatterns",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34351] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34407] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34350] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34409] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35733] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34183] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34346] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34349] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34348] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34347] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35273] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [34664] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35208] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35210] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35209] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+  [35211] = {
+    {
+      ["instance"] = "SunwellPlateau",
+      ["boss"] = "SPTrash",
+      ["difficulty"] = "normal",
+    },
+  },
+}
