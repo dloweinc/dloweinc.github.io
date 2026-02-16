@@ -6,6 +6,40 @@ LootBrowser.SLASH_COMMAND = "/rloot"
 
 local ToggleMainFrame
 
+local TBC_DUNGEON_NAMES = {
+    ["Hellfire Ramparts"] = true,
+    ["The Blood Furnace"] = true,
+    ["The Shattered Halls"] = true,
+    ["Mana-Tombs"] = true,
+    ["Auchenai Crypts"] = true,
+    ["Sethekk Halls"] = true,
+    ["Shadow Labyrinth"] = true,
+    ["The Slave Pens"] = true,
+    ["The Underbog"] = true,
+    ["The Steamvault"] = true,
+    ["Old Hillsbrad Foothills"] = true,
+    ["The Black Morass"] = true,
+    ["Magisters' Terrace"] = true,
+    ["The Mechanar"] = true,
+    ["The Botanica"] = true,
+    ["The Arcatraz"] = true,
+}
+
+local TBC_RAID_NAMES = {
+    ["Karazhan"] = true,
+    ["Gruul's Lair"] = true,
+    ["Magtheridon's Lair"] = true,
+    ["Serpentshrine Cavern"] = true,
+    ["Tempest Keep"] = true,
+    ["The Battle for Mount Hyjal"] = true,
+    ["Black Temple"] = true,
+    ["Sunwell Plateau"] = true,
+}
+
+local DIFFICULTY_NORMAL_DUNGEON = 1
+local DIFFICULTY_HEROIC_DUNGEON = 2
+local DIFFICULTY_NORMAL_RAID = 14
+
 LootBrowser.dungeons = {
 
     {
@@ -507,147 +541,135 @@ LootBrowser.dungeons = {
     },
 }
 
+local function CollectJournalInstances(isRaid)
+    local instances = {}
+    for index = 1, 200 do
+        local name, _, _, _, _, _, _, instanceID = EJ_GetInstanceByIndex(index, isRaid)
+        if not name or not instanceID then
+            break
+        end
+        instances[name] = instanceID
+    end
+    return instances
+end
 
+local function GetLootInfoByIndex(index, encounterID)
+    local itemInfo = EJ_GetLootInfoByIndex(index, encounterID)
+    if type(itemInfo) == "table" then
+        return itemInfo
+    end
 
-local function NormalizeLootItem(item)
-    local itemID
-    local quality = 3
-    local name = "Unknown Item"
-    local icon = 134400
-    local stats = {}
+    local itemID, _, name, _, _, _, _, _, _, icon, _, _, _, quality = EJ_GetLootInfoByIndex(index, encounterID)
+    if itemID then
+        return {
+            itemID = itemID,
+            name = name,
+            icon = icon,
+            quality = quality,
+        }
+    end
 
-    if type(item) == "number" then
-        itemID = item
-    elseif type(item) == "table" then
-        itemID = item.itemID or item.id
-        quality = item.quality or quality
-        name = item.name or name
-        icon = item.icon or icon
-        if type(item.stats) == "table" then
-            stats = item.stats
-        elseif type(item.tooltip) == "table" then
-            stats = item.tooltip
+    return nil
+end
+
+local function BuildEncounterLoot(encounterID)
+    local loot = {}
+    for lootIndex = 1, 500 do
+        local item = GetLootInfoByIndex(lootIndex, encounterID)
+        if not item then
+            break
+        end
+
+        local quality = item.quality or select(3, GetItemInfo(item.itemID or 0)) or 1
+        if (quality or 1) >= LootBrowser.MIN_QUALITY and item.itemID then
+            local itemName, _, _, _, _, _, _, _, _, icon = GetItemInfo(item.itemID)
+            table.insert(loot, {
+                itemID = item.itemID,
+                quality = quality,
+                name = item.name or itemName or ("Item #" .. item.itemID),
+                icon = item.icon or icon,
+                stats = {},
+            })
         end
     end
 
-    if itemID then
-        local itemName, _, itemQuality, _, _, _, _, _, _, itemIcon = GetItemInfo(itemID)
-        name = name ~= "Unknown Item" and name or itemName or ("Item #" .. itemID)
-        quality = quality or itemQuality or 3
-        icon = icon ~= 134400 and icon or itemIcon or 134400
+    return loot
+end
+
+local function BuildDungeonFromJournal(name, instanceID, difficultyID, difficultyLabel)
+    EJ_SelectInstance(instanceID)
+    EJ_SetDifficulty(difficultyID)
+
+    local bosses = {}
+    for encounterIndex = 1, 100 do
+        local encounterName, _, encounterID = EJ_GetEncounterInfoByIndex(encounterIndex, instanceID)
+        if not encounterName or not encounterID then
+            break
+        end
+
+        table.insert(bosses, {
+            name = encounterName,
+            loot = BuildEncounterLoot(encounterID),
+        })
+    end
+
+    if #bosses == 0 then
+        return nil
     end
 
     return {
-        itemID = itemID,
-        quality = quality or 3,
+        id = string.lower(name:gsub("[^%w]+", "_")) .. "_" .. string.lower(difficultyLabel),
         name = name,
-        icon = icon,
-        stats = stats,
+        zone = "Outland",
+        bosses = bosses,
+        difficulty = difficultyLabel,
     }
 end
 
-local function NormalizeBosses(bossesData)
-    local bosses = {}
-    if type(bossesData) ~= "table" then
-        return bosses
-    end
-
-    if bossesData[1] then
-        for _, boss in ipairs(bossesData) do
-            if type(boss) == "table" and boss.name then
-                local loot = {}
-                for _, item in ipairs(boss.loot or boss.items or {}) do
-                    table.insert(loot, NormalizeLootItem(item))
-                end
-                table.insert(bosses, { name = boss.name, loot = loot })
-            end
-        end
-    else
-        for bossName, items in pairs(bossesData) do
-            local loot = {}
-            if type(items) == "table" then
-                for _, item in ipairs(items) do
-                    table.insert(loot, NormalizeLootItem(item))
-                end
-            end
-            table.insert(bosses, { name = bossName, loot = loot })
-        end
-    end
-
-    table.sort(bosses, function(a, b)
-        return (a.name or "") < (b.name or "")
-    end)
-
-    return bosses
-end
-
-local function BuildDungeonsFromBossItemMap(mapData)
-    if type(mapData) ~= "table" then
+local function BuildTBCAnniversaryLootData()
+    if not (EJ_GetInstanceByIndex and EJ_SelectInstance and EJ_GetEncounterInfoByIndex and EJ_GetLootInfoByIndex) then
         return nil
     end
 
     local dungeons = {}
-    local function addDungeon(instanceName, difficultyName, instanceData)
-        if type(instanceData) ~= "table" then
-            return
-        end
+    local dungeonInstances = CollectJournalInstances(false)
+    local raidInstances = CollectJournalInstances(true)
 
-        local bosses = NormalizeBosses(instanceData.bosses or instanceData)
-        if #bosses == 0 then
-            return
-        end
+    for name in pairs(TBC_DUNGEON_NAMES) do
+        local instanceID = dungeonInstances[name]
+        if instanceID then
+            local normal = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_NORMAL_DUNGEON, "Normal")
+            if normal then
+                table.insert(dungeons, normal)
+            end
 
-        local difficulty = difficultyName or instanceData.difficulty or "Normal"
-        local displayName = instanceName
-        if difficulty == "Heroic" and not string.find(displayName or "", "(Heroic)", 1, true) then
-            displayName = (displayName or "") .. " (Heroic)"
-        end
-
-        table.insert(dungeons, {
-            id = string.lower((displayName or "instance"):gsub("[^%w]+", "_")),
-            name = displayName,
-            zone = instanceData.zone or "Outland",
-            difficulty = difficulty,
-            bosses = bosses,
-        })
-    end
-
-    if mapData[1] then
-        for _, entry in ipairs(mapData) do
-            if type(entry) == "table" and entry.instance then
-                addDungeon(entry.instance, entry.difficulty, entry)
+            local heroic = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_HEROIC_DUNGEON, "Heroic")
+            if heroic then
+                heroic.name = heroic.name .. " (Heroic)"
+                table.insert(dungeons, heroic)
             end
         end
-    else
-        for instanceName, instanceData in pairs(mapData) do
-            if type(instanceData) == "table" and instanceData.bosses then
-                addDungeon(instanceName, instanceData.difficulty, instanceData)
-            elseif type(instanceData) == "table" then
-                local usedAsDifficulties = false
-                for diffName, diffData in pairs(instanceData) do
-                    if type(diffData) == "table" and (diffData.bosses or diffData[1] or next(diffData)) then
-                        usedAsDifficulties = true
-                        local diff = diffData.difficulty or diffName
-                        addDungeon(instanceName, diff, diffData)
-                    end
-                end
-                if not usedAsDifficulties then
-                    addDungeon(instanceName, "Normal", instanceData)
-                end
+    end
+
+    for name in pairs(TBC_RAID_NAMES) do
+        local instanceID = raidInstances[name]
+        if instanceID then
+            local raid = BuildDungeonFromJournal(name, instanceID, DIFFICULTY_NORMAL_RAID, "Raid")
+            if raid then
+                table.insert(dungeons, raid)
             end
         end
     end
 
     table.sort(dungeons, function(a, b)
-        return (a.name or "") < (b.name or "")
+        return a.name < b.name
     end)
 
-    return #dungeons > 0 and dungeons or nil
-end
+    if #dungeons == 0 then
+        return nil
+    end
 
-local generatedDungeons = BuildDungeonsFromBossItemMap(TBC_BOSS_ITEM_MAP)
-if generatedDungeons then
-    LootBrowser.dungeons = generatedDungeons
+    return dungeons
 end
 
 local function GetQualityColor(quality)
@@ -964,12 +986,8 @@ local function RenderDungeon(dungeon)
     end
     parent.rows = {}
 
-    local titleName = dungeon.name or "Unknown"
-    local difficultySuffix = ""
-    if dungeon.difficulty and not string.find(titleName, "(Heroic)", 1, true) then
-        difficultySuffix = " [" .. dungeon.difficulty .. "]"
-    end
-    frame.contentTitle:SetText(titleName .. difficultySuffix .. "  -  " .. (dungeon.zone or "Unknown Zone"))
+    local difficultySuffix = dungeon.difficulty and (" [" .. dungeon.difficulty .. "]") or ""
+    frame.contentTitle:SetText(dungeon.name .. difficultySuffix .. "  -  " .. dungeon.zone)
 
     local y = -4
     for _, boss in ipairs(dungeon.bosses) do
@@ -1074,6 +1092,11 @@ SlashCmdList.LOOTBROWSER = ToggleMainFrame
 local events = CreateFrame("Frame")
 events:RegisterEvent("PLAYER_LOGIN")
 events:SetScript("OnEvent", function()
+    local journalLoot = BuildTBCAnniversaryLootData()
+    if journalLoot then
+        LootBrowser.dungeons = journalLoot
+    end
+
     BuildMinimapButton()
     -- Main frame is still initialized lazily on first slash command or minimap click.
 end)
